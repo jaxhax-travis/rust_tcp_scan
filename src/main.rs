@@ -79,6 +79,7 @@ fn main() {
     for port in open_ports {
         println!(" [\x1b[32;1m+\x1b[0m] Port \x1b[32;1m{}\x1b[0m Open!", port);
     }
+    println!("");
 }
 
 /////////////////////////////////////////////////////////////
@@ -92,9 +93,7 @@ fn print_banner() {
 // Check if we can connect to the port successfully. If so,
 // send the port number over the thread's tx channel.
 /////////////////////////////////////////////////////////////
-//fn check_port(tx: Sender<u16>, addr: IpAddr, port: u16) {
 fn check_port(tx: Sender<u16>, addr: &String, port: u16) {
-    //if let Ok(_stream) = TcpStream::connect((addr, port)) {
     if let Ok(_stream) = TcpStream::connect(format!("{}:{}",addr, port)) {
         tx.send(port).unwrap();
     }
