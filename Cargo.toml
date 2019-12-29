@@ -1,0 +1,11 @@
+[package]
+name = "tcp_scan"
+version = "0.1.0"
+authors = ["Travis Phillips"]
+edition = "2018"
+
+[dependencies]
+clap = { version = "2.33.0", optional = false }
+
+[target.'cfg(windows)'.dependencies]
+ansi_term = "0.12"
