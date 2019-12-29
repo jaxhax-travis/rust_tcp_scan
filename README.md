@@ -5,6 +5,9 @@ A simple multi-threaded TCP port scanner written in Rust. This was written mostl
 
 ## Installation
 
+### Binary Release (Windows)
+A pre-compiled version of the application in a zip file can be found in the `release` tab on this repository.
+
 ### Build From Source
 The application can be built using `cargo build --release`. The resulting binary will be found in target/release/. This has been tested in Linux and Windows.
 
