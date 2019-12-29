@@ -10,12 +10,15 @@ The application can be built using `cargo build --release`. The resulting binary
 
 # Screenshots
 ![Help Screen](https://gist.githubusercontent.com/jaxhax-travis/2add94577250c42bdcb6093a8df6f09d/raw/af4d24ba1e8535db0cd71c5da0a1afcaebcf2cce/rust_tcp_scan_help.png?raw=true "tcp_scan Help Screen")
+
 tcp_scan help screen
 
 
 ![Scanning Select Ports on Metasploitable2](https://gist.githubusercontent.com/jaxhax-travis/2add94577250c42bdcb6093a8df6f09d/raw/af4d24ba1e8535db0cd71c5da0a1afcaebcf2cce/rust_tcp_scan_metasploitable2_select_ports.png?raw=true "Scanning Select Ports on Metasploitable2")
+
 Scanning ports 80, 443, and 3000-4000 on Metaploitable2 VM.
 
 
 ![Scanning All Ports on Metasploitable2](https://gist.githubusercontent.com/jaxhax-travis/2add94577250c42bdcb6093a8df6f09d/raw/af4d24ba1e8535db0cd71c5da0a1afcaebcf2cce/rust_tcp_scan_metasploitable2_all_ports.png?raw=true "Scanning All Ports on Metasploitable2")
+
 Scanning all ports on Metaploitable2 VM.
