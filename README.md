@@ -1,5 +1,5 @@
 # rust_tcp_scan
-![CI Build Status](https://github.com/actions/hello-world/workflows/Greet%20Everyone/badge.svg "CI Build Status")
+![](https://github.com/jaxhax-travis/rust_tcp_scan/workflows/ci/badge.svg "CI Build Status")
 A simple multi-threaded TCP port scanner written in Rust. This was written mostly as an exercise for me to learn a little bit about threading in Rust but I am releasing it in hopes that it is useful for someone else looking for a code example. This code will create a thread for each port to be scanned.
 
 # Getting started
