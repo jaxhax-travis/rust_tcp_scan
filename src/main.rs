@@ -4,14 +4,9 @@ use std::thread;
 use std::sync::mpsc::{Sender, channel};
 
 const NAME: &str = "TCP Port Scanner";
-const VERSION: &str = "v1.0";
+const VERSION: &str = "v1.1";
 
 fn main() {
-    /////////////////////////////////////////////////////////////
-    // Enable colored output on windows
-    /////////////////////////////////////////////////////////////
-    #[cfg(target_os = "windows")]
-    let _enabled = ansi_term::enable_ansi_support();
 
     /////////////////////////////////////////////////////////////
     // Print banner & parse arguments
